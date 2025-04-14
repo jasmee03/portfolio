@@ -29,8 +29,8 @@ const Projects = () => {
       title: "Portfolio Website",
       detailedDescription: "A personal portfolio website showcasing projects and skills. Built with React.js, Redux, and Material UI for a modern look and feel.",
       technologies: ["React.js", "Redux", "Material UI", "React Router"],
-      githubUrl: "https://github.com/jasmee03/Portfolio_website",
-      liveUrl: "https://githubbox.com/jasmee03/Portfolio_website",
+      githubUrl: "https://github.com/jasmee03/portfolio",
+      liveUrl: "https://githubbox.com/jasmee03/portfolio",
       image: profileImg
     },
     {
