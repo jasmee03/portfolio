@@ -31,15 +31,15 @@ const Projects = () => {
       technologies: ["React.js", "Redux", "Material UI", "React Router"],
       githubUrl: "https://github.com/jasmee03/portfolio",
       liveUrl: "https://githubbox.com/jasmee03/portfolio",
-      image: profileImg
+      image: invenTrackImg
     },
     {
       id: 3,
-      title: "//coming soon...",
+      title: "ShopLite E-commerce Platform",
       detailedDescription: "",
-      technologies: ["JavaScript", "OpenWeather API", "CSS3", "Geolocation API"],
-      githubUrl: "https://github.com/username/weather-app",
-      liveUrl: "https://weather-demo.com",
+      technologies: ["laravel", "Bootstrap", "MySQL", "JavaScript"],
+      githubUrl: "https://github.com/jasmee03/ShopLite-Ecommerce",
+      liveUrl: "https://githubbox.com/jasmee03/ShopLite-Ecommerce",
       image: weatherDashboardImg
     },
     {

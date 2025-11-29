@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import { techStack } from "../constants";
 import { ThemeContext } from "../themeProvider";
 import { motion } from "framer-motion";
-import profilePhoto from "../assets/profile1.jpg"; // Adjust path to your photo
+import profilePhoto from "../assets/ims.webp"; // Adjust path to your photo
 import invenTrackImg from "../assets/inventrack.jpeg"; // Adjust path to your image
 const About = () => {
   const theme = useContext(ThemeContext);
@@ -21,7 +21,7 @@ const About = () => {
               : "text-5xl font-bold px-4 md:px-0 text-center text-white"
           }
         >
-          About Me
+          About Us
         </motion.h2>
         
         <div className="flex flex-col lg:flex-row items-center gap-12 mt-16">
@@ -38,7 +38,7 @@ const About = () => {
               shadow-xl hover:shadow-2xl transition-shadow duration-300`}>
               <img 
                 src={profilePhoto} 
-                alt="Janaki Kshetri"
+                alt="Profile Photo"
                 className="rounded-full w-64 h-64 object-cover border-[6px] border-white dark:border-gray-800 hover:scale-[1.02] transition-transform duration-300"
               />
               {/* Optional decorative element */}
@@ -56,7 +56,6 @@ const About = () => {
   }}
 >
 😚
-
 </motion.div>
             </div>
           </motion.div>
@@ -71,17 +70,17 @@ const About = () => {
             <div className="space-y-8">
               <div>
                 <h4 className="text-3xl font-semibold text-blue-500">
-                  A bit about me
+                  A bit about us
                 </h4>
                 <p className={
                   darkMode
                     ? "mt-4 text-xl text-justify text-gray-600 leading-relaxed"
                     : "mt-4 text-xl text-justify text-gray-200 leading-relaxed"
                 }>
-                  I'm a self-taught web developer passionate about creating exceptional digital experiences. 
-                  With a keen eye for user experience, I craft reusable and efficient code that brings designs 
-                  to life. I thrive at the intersection of technology and creativity, guiding projects from 
-                  initial concept through to successful deployment. Currently deepening my expertise in 
+                  We're a team of self-taught web developers passionate about creating exceptional digital experiences. 
+                  With a keen eye for user experience, we craft reusable and efficient code that brings designs 
+                  to life. We thrive at the intersection of technology and creativity, guiding projects from 
+                  initial concept through to successful deployment. Currently deepening our expertise in 
                   backend development and scalable system architecture.
                 </p>
               </div>
@@ -95,8 +94,8 @@ const About = () => {
                     ? "mt-4 text-xl text-justify text-gray-600 leading-relaxed"
                     : "mt-4 text-xl text-justify text-gray-200 leading-relaxed"
                 }>
-                  I leverage cutting-edge technologies combined with battle-tested open-source solutions 
-                  to build performant, accessible websites and applications. My toolkit is optimized for 
+                  We leverage cutting-edge technologies combined with battle-tested open-source solutions 
+                  to build performant, accessible websites and applications. Our toolkit is optimized for 
                   creating seamless experiences across all devices - from smartphones to desktops.
                 </p>
               </div>

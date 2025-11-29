@@ -23,7 +23,7 @@ const Contact = () => {
             Connect with me
           </h4>
           <p className="text-gray-500 text-xl">
-            If you want to know more about me or my work, or if you would just
+            If you want to know more about us or our work, or if you would just
             <br />
             like to say hello, send me a message. I'd love to hear from you.
           </p>
@@ -89,12 +89,12 @@ const Contact = () => {
               </div>
               <div className="flex justify-between ">
                 <div className="underline">
-                  <a href="mailto:janakikshatri117@gmail.com">
+                  <a href="mailto:techflow03@gmail.com">
                     Send me email directly
                   </a>
                 </div>
                 <button className="bg-indigo-500 text-white px-4 py-2 w-40 rounded-md hover:bg-indigo-400">
-                  <a href="mailto:janakikshatri117@gmail.com">Submit</a>
+                  <a href="mailto:techflow03@gmail.com">Submit</a>
                 </button>
               </div>
             </form>
@@ -107,7 +107,7 @@ const Contact = () => {
                   href="hello"
                   className="mb-12 mt-4 font-semibold text-blue-700 block uppercase"
                 >
-                  +977 9742873817
+                  +977 9742000000
                 </a>
               </div>
             }
@@ -116,7 +116,7 @@ const Contact = () => {
               href="hello"
               className="mb-12 mt-4 font-semibold text-blue-700 block uppercase"
             >
-              janakikshatri117@gmail.com
+              techflow03@gmail.com
             </a>
             <h1 className="text-3xl  font-bold">Address</h1>
             <a
@@ -150,7 +150,7 @@ const Contact = () => {
       >
         Made with
         <div className="text-red-500 px-2 text-2xl">&#10084;</div>
-        by Janaki Kshetri &copy; 2025
+        by TechFlow Tech &copy; 2025
       </div>
     </div>
   );
