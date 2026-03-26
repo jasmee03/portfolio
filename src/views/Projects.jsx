@@ -3,10 +3,10 @@ import { ThemeContext } from "../themeProvider";
 
 // Import your project images from assets
 import invenTrackImg from "../assets/inventrack.jpeg";
-import profileImg from "../assets/profile1.jpg";
-import weatherDashboardImg from "../assets/inventrack.jpeg";
-import portfolioImg from "../assets/inventrack.jpeg";
+import profile1 from "../assets/profile1.jpg";
+import webdev from "../assets/webdev.svg";
 import recipeFinderImg from "../assets/inventrack.jpeg";
+import cloudDark from "../assets/cloudDark.png";
 
 const Projects = () => {
   const theme = useContext(ThemeContext);
@@ -31,7 +31,7 @@ const Projects = () => {
       technologies: ["React.js", "Redux", "Material UI", "React Router"],
       githubUrl: "https://github.com/jasmee03/portfolio",
       liveUrl: "https://githubbox.com/jasmee03/portfolio",
-      image: invenTrackImg
+      image: profile1
     },
     {
       id: 3,
@@ -40,7 +40,7 @@ const Projects = () => {
       technologies: ["laravel", "Bootstrap", "MySQL", "JavaScript"],
       githubUrl: "https://github.com/jasmee03/ShopLite-Ecommerce",
       liveUrl: "https://githubbox.com/jasmee03/ShopLite-Ecommerce",
-      image: weatherDashboardImg
+      image: cloudDark
     },
     {
       id: 4,
@@ -49,7 +49,7 @@ const Projects = () => {
       technologies: ["React", "Tailwind CSS", "Framer Motion", "React Icons"],
       githubUrl: "https://github.com/username/portfolio",
       liveUrl: "",
-      image: portfolioImg
+      image: webdev
     },
     {
       id: 5,

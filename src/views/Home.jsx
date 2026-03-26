@@ -29,19 +29,19 @@ const Home = () => {
               <motion.span
                 className={darkMode ? "block text-black" : " text-white"}
               >
-                Hi, Welcome to TechFlow Tech..
+                Hi, I'm Janaki
               </motion.span>
               <span className="block text-blue-500 z-0 lg:inline">
                 <Typical
                   steps={[
-                    "Code", //coder
-                    2000,
-                    "Web Development", //web devloper
-                    2000,
-                    "Laravel Development", //laravel developer
-                    2000,
-                    "Full Stack Development", //full stack developer
-                    2000,
+                    "Coder", 
+                    3000,
+                    "Web Developer", 
+                    3000,
+                    "Laravel Developer", 
+                    3000,
+                    "Full Stack Developer", 
+                    3000,
                   ]}
                   loop={Infinity}
                 />

@@ -89,12 +89,12 @@ const Contact = () => {
               </div>
               <div className="flex justify-between ">
                 <div className="underline">
-                  <a href="mailto:techflow03@gmail.com">
+                  <a href="mailto:janakikshetri117@gmail.com">
                     Send me email directly
                   </a>
                 </div>
                 <button className="bg-indigo-500 text-white px-4 py-2 w-40 rounded-md hover:bg-indigo-400">
-                  <a href="mailto:techflow03@gmail.com">Submit</a>
+                  <a href="mailto:janakikshetri117@gmail.com">Submit</a>
                 </button>
               </div>
             </form>
@@ -104,23 +104,23 @@ const Contact = () => {
               <div>
                 <h1 className="text-3xl font-bold">Phone</h1>
                 <a
-                  href="hello"
+                  href="tel:+9779742873817"
                   className="mb-12 mt-4 font-semibold text-blue-700 block uppercase"
                 >
-                  +977 9742000000
+                  +977 9742873817
                 </a>
               </div>
             }
             <h1 className="text-3xl font-bold">Email</h1>
             <a
-              href="hello"
+              href="mailto:janakikshetri117@gmail.com"
               className="mb-12 mt-4 font-semibold text-blue-700 block uppercase"
             >
-              techflow03@gmail.com
+              janakikshetri117@gmail.com
             </a>
             <h1 className="text-3xl  font-bold">Address</h1>
             <a
-              href="hello"
+              href="https://maps.google.com/?q=Kathmandu,+Nepal"
               className="mt-4  mb-12 md:text-right font-semibold text-blue-700 block uppercase"
             >
               Kathmandu, Nepal
@@ -150,7 +150,7 @@ const Contact = () => {
       >
         Made with
         <div className="text-red-500 px-2 text-2xl">&#10084;</div>
-        by TechFlow Tech &copy; 2025
+        by Janaki Kshetri &copy; 2025
       </div>
     </div>
   );

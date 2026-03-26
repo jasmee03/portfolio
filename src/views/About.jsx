@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import { techStack } from "../constants";
 import { ThemeContext } from "../themeProvider";
 import { motion } from "framer-motion";
-import profilePhoto from "../assets/ims.webp"; // Adjust path to your photo
+import profilePhoto from "../assets/profile1.jpg"; // Adjust path to your photo
 import invenTrackImg from "../assets/inventrack.jpeg"; // Adjust path to your image
 const About = () => {
   const theme = useContext(ThemeContext);

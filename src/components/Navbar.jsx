@@ -58,7 +58,7 @@ const Navbar = () => {
                   : "text-xl font-medium text-decoration-none whitespace-nowrap text-white"
               }
             >
-              {`<TechFlow />`}
+              {`< Janaki Kshetri />`}
             </a>
           </div>
           <div class="hidden justify-between items-center w-full md:flex md:w-auto ">
