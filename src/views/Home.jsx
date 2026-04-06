@@ -34,13 +34,13 @@ const Home = () => {
               <span className="block text-blue-500 z-0 lg:inline">
                 <Typical
                   steps={[
-                    "Coder", 
+                    "Laravel & Flutter Developer", 
                     3000,
-                    "Web Developer", 
+                    "QA Engineer", 
                     3000,
-                    "Laravel Developer", 
+                    "Data Analyst", 
                     3000,
-                    "Full Stack Developer", 
+                    "Software Engineer", 
                     3000,
                   ]}
                   loop={Infinity}
@@ -54,9 +54,9 @@ const Home = () => {
                   : "mt-3 text-base text-white sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0"
               }
             >
-             I'm a web developer crafting fast, responsive sites 
-             with clean code + modern tech.  
-             Turning ideas into seamless digital experiences.Let’s build something great..
+             Laravel & Flutter Developer focused on high-quality code. Combining 
+             QA Engineering and Data Analysis to build robust, data-driven 
+             applications. Let's create something great..
             </p>
             <div className="flex md:justify-start ">
               {contactLinks.map((el) => (
@@ -70,12 +70,17 @@ const Home = () => {
               ))}
             </div>
             <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
-              <div className="mt-3 sm:mt-0 cursor-pointer w-1/2">
-                <Link className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-500 hover:bg-blue-200 md:py-4 md:text-lg md:px-10">
-                  Resume
-                </Link>
-              </div>
-            </div>
+  <div className="mt-3 sm:mt-0 cursor-pointer w-1/2">
+    <a 
+      href="/Janaki_Resume.pdf" 
+      target="_blank" 
+      rel="noopener noreferrer"
+      className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-500 hover:bg-blue-600 md:py-4 md:text-lg md:px-10 transition-colors"
+    >
+      Resume
+    </a>
+  </div>
+</div>
           </div>
           <motion.img
             initial="hidden"

@@ -21,7 +21,7 @@ const About = () => {
               : "text-5xl font-bold px-4 md:px-0 text-center text-white"
           }
         >
-          About Us
+        About Me
         </motion.h2>
         
         <div className="flex flex-col lg:flex-row items-center gap-12 mt-16">
@@ -70,17 +70,17 @@ const About = () => {
             <div className="space-y-8">
               <div>
                 <h4 className="text-3xl font-semibold text-blue-500">
-                  A bit about us
+                  A bit about Me
                 </h4>
                 <p className={
                   darkMode
                     ? "mt-4 text-xl text-justify text-gray-600 leading-relaxed"
                     : "mt-4 text-xl text-justify text-gray-200 leading-relaxed"
                 }>
-                  We're a team of self-taught web developers passionate about creating exceptional digital experiences. 
-                  With a keen eye for user experience, we craft reusable and efficient code that brings designs 
-                  to life. We thrive at the intersection of technology and creativity, guiding projects from 
-                  initial concept through to successful deployment. Currently deepening our expertise in 
+                  I'm a self-taught web developer passionate about creating exceptional digital experiences. 
+                  With a keen eye for user experience, I craft reusable and efficient code that brings designs 
+                  to life. I thrive at the intersection of technology and creativity, guiding projects from 
+                  initial concept through to successful deployment. Currently deepening my expertise in 
                   backend development and scalable system architecture.
                 </p>
               </div>
@@ -94,8 +94,8 @@ const About = () => {
                     ? "mt-4 text-xl text-justify text-gray-600 leading-relaxed"
                     : "mt-4 text-xl text-justify text-gray-200 leading-relaxed"
                 }>
-                  We leverage cutting-edge technologies combined with battle-tested open-source solutions 
-                  to build performant, accessible websites and applications. Our toolkit is optimized for 
+                  I leverage cutting-edge technologies combined with battle-tested open-source solutions 
+                  to build performant, accessible websites and applications. My toolkit is optimized for 
                   creating seamless experiences across all devices - from smartphones to desktops.
                 </p>
               </div>
