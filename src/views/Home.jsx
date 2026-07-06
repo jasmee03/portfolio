@@ -34,14 +34,13 @@ const Home = () => {
               <span className="block text-blue-500 z-0 lg:inline">
                 <Typical
                   steps={[
-                    "Laravel & Flutter Developer", 
+                    "Laravel Developer", 
                     3000,
-                    "QA Engineer", 
+                    "Quality Assurance", 
                     3000,
                     "Data Analyst", 
                     3000,
-                    "Software Engineer", 
-                    3000,
+                  
                   ]}
                   loop={Infinity}
                 />
@@ -54,8 +53,8 @@ const Home = () => {
                   : "mt-3 text-base text-white sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0"
               }
             >
-             Laravel & Flutter Developer focused on high-quality code. Combining 
-             QA Engineering and Data Analysis to build robust, data-driven 
+             Laravel Developer focused on high-quality code. Combining 
+             Quality Assurance and Data Analysis to build robust, data-driven 
              applications. Let's create something great..
             </p>
             <div className="flex md:justify-start ">

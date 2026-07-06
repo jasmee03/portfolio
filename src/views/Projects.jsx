@@ -7,6 +7,8 @@ import profile1 from "../assets/profile1.jpg";
 import webdev from "../assets/webdev.svg";
 import recipeFinderImg from "../assets/inventrack.jpeg";
 import cloudDark from "../assets/cloudDark.png";
+import pharmaa from "../assets/pharmaa.png";
+import facedetection from "../assets/facedetection.jpg";
 
 const Projects = () => {
   const theme = useContext(ThemeContext);
@@ -30,11 +32,30 @@ const Projects = () => {
       detailedDescription: "A personal portfolio website showcasing projects and skills. Built with React.js, Redux, and Material UI for a modern look and feel.",
       technologies: ["React.js", "Redux", "Material UI", "React Router"],
       githubUrl: "https://github.com/jasmee03/portfolio",
-      liveUrl: "https://githubbox.com/jasmee03/portfolio",
+      liveUrl: "https://janakikshetri.vercel.app/",
       image: profile1
     },
+
     {
       id: 3,
+      title: "Face Emotion Detector",
+      detailedDescription: "",
+      technologies: ["python", "flask", "javascript", "tensorflow", "opencv"],
+      githubUrl: "https://github.com/jasmee03/face-detection-app",
+      liveUrl: "",
+      image: facedetection
+    },
+     {
+      id: 4,
+      title: "Pharma Billing",
+      detailedDescription: "",
+      technologies: ["python", "django", "javascript", "ReportLab"],
+      githubUrl: "https://github.com/jasmee03/pharma-billing",
+      liveUrl: "",
+      image: pharmaa
+    },
+    {
+      id: 5,
       title: "ShopLite E-commerce Platform",
       detailedDescription: "",
       technologies: ["laravel", "Bootstrap", "MySQL", "JavaScript"],
@@ -42,24 +63,7 @@ const Projects = () => {
       liveUrl: "https://githubbox.com/jasmee03/ShopLite-Ecommerce",
       image: cloudDark
     },
-    {
-      id: 4,
-      title: "//coming soon...",
-      detailedDescription: "",
-      technologies: ["React", "Tailwind CSS", "Framer Motion", "React Icons"],
-      githubUrl: "https://github.com/username/portfolio",
-      liveUrl: "",
-      image: webdev
-    },
-    {
-      id: 5,
-      title: "//coming soon...",
-      detailedDescription: "",
-      technologies: ["React", "Edamam API", "Context API", "React Router"],
-      githubUrl: "https://github.com/username/recipe-finder",
-      liveUrl: "https://recipefinder-demo.com",
-      image: recipeFinderImg
-    },
+   
   ];
 
   const openModal = (project) => {
